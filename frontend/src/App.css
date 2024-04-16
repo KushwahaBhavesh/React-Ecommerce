@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  color: rgb(255, 0, 0);
+  background: #32eaf0;
+}
+html {
+  font-size:90%;
+  overflow-x: hidden;
+}
